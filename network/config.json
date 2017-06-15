@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "Henri Egle Sorotos"
+  },
+  "text": {
+    "more": "TEST",
+    "intro": "The network represents the flow of talent and skills from educational institutions to Future Fifty companies. The size of the nodes is proportional to the amount of activity in that area, and the colour represents the density of talent flow.",
+    "title": "Future Fifty Talent Flows"
+  },
+  "legend": {
+    "edgeLabel": "Talent Flow",
+    "colorLabel": "Flow Density",
+    "nodeLabel": "Company/Education Institution"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "Interval",
+    "hoverBehavior": "dim"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": true,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
